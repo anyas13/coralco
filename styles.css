@@ -1,0 +1,105 @@
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+  font-size: 5.0em;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+}
+
+h3 {
+  color: #1d7892;
+  font-size: 2.0em;
+}
+
+
+.heading {
+  padding-bottom: 9%;
+  background-color: #FF7F50;
+  text-transform: capitalize;
+  display: block;
+  box-sizing: border-box;
+}
+
+.logo{
+  height: 50%;
+  position: absolute;
+  left: 6%;
+  top: 0;
+}
+
+.heading-text{
+  text-align: left;
+  padding: 5% 10% 0% 50%;
+}
+
+
+.signup {
+  display: flex;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-image: url("/images/signup.png");
+  background-repeat: no-repeat;
+}
+
+.signup h1{
+  color: #000000;
+}
+
+.signup .form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.signup .form-signin .checkbox {
+  font-weight: 400;
+}
+
+.signup .form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.signup .top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.signup .middle {
+  border-radius: 0;
+  margin-bottom: -1;
+}
+
+.signup .bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.signup .title-section {
+  padding: 7% 15%;
+}
+
+.transparent{
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1% 0 2% 0;
+
+}
+
+.foot {
+  background-color: #D3D8D6;
+  padding: 7%
+}
+
+.foot h2 {
+  color: #000000;
+}
